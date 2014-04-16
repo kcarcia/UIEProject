@@ -1,0 +1,240 @@
+/*	Last modified by Kaitlyn Carcia April 16, 2014
+	CSS based off sample.css found here: https://github.com/fredleblanc/HTML/tree/master/css
+	Several styles have been added toward the bottom of the file, and it has been noted where modifications have been made
+*/
+
+html {
+    font: normal normal normal 1em/1.5 "Helvetica Neue", Arial, sans-serif;
+    color: #16161e;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    max-width: 53em;
+    width: 92%;
+    margin: 1.5em auto;
+    position: relative;
+}
+
+/* Modified to fit style - now blue */
+a {
+    color: #15abe0;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+hr {
+    border: none;
+    border-top: 1px solid #aaa;
+    width: 60%;
+    margin: 3em auto;
+    height: 0;
+}
+
+div.row {
+    margin-bottom: 1.5em;
+}
+
+fieldset .row {
+    margin: 0.5em 0 0.75em;
+}
+
+div.row > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* border: 1px solid #ddd; commented out by Kate
+    background-color: #fff; /* color of the boxes */
+    /* line-height: 3.2em; commented out by Kate */
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+div.gutterless > div {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+div.row.gutterless > div:first-child {
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+div.row.gutterless > div:last-child {
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+div.row > div.field {
+    border: none;
+    overflow: auto;
+    white-space: normal;
+    line-height: 1.5;
+    background-color: transparent;
+}
+
+div.row.medium > div {
+    /* line-height: 8em; commented out by Kate */
+}
+
+div.row.large > div {
+    /* line-height: 0em;  commented out by Kate */
+}
+
+div.row.x-large > div {
+    /* line-height: 22em; commented out by Kate */
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.examples {
+    position: relative;
+    z-index: 20;
+}
+
+/* The following CSS rules have all been added by Kate */
+
+/* round head shot photos */
+img.round-headshot{
+    width:5.5em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+/* Get free recordings button */
+.button {
+    display: block;
+    margin: 0 auto;
+    background: #9360ab;
+    color: #eeebf6;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+/* Font face for this website */
+@font-face {
+    font-family: "SSPika";
+    src: url('ss-pika.eot');
+    src: url('ss-pika.eot?#iefix') format('embedded-opentype'),
+        url('ss-pika.woff') format('woff'),
+        url('ss-pika.ttf')  format('truetype'),
+        url('ss-pika.svg#SSPika') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+/* Email input box */
+input[type=text]{
+    width: 19.3em;
+    height: 2em;
+    background-color:#fbfbfb;
+    border: 1px solid #9360ab;
+    box-shadow:inset 0 0 0.1em 0.1em #888;
+    font-size: 0.95em;
+    padding-left: 15px;
+    margin-top: 1.6em;
+}
+
+/* Styling placeholder in input box */
+/* Source: http://stackoverflow.com/questions/9538921/placeholder-text-formatting */
+/*For Webkit browsers (Chrome, Safari) */
+input::-webkit-input-placeholder {
+    color: #6e7e84;
+}
+
+/* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+.wordwrap { 
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
+
+/* Applies to everything */
+* {
+    color: #6e7e84;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+/* Signup area */
+.signup{
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Checkboxes in signup area */
+.signup-selections{
+    text-align: left;
+    font-size:0.8em;
+}
+
+/* Descriptions */
+p{
+    font-size:1.15em;
+}
+
+.name{
+    color:#e45772;
+    font-size: 1.3em;
+    font-weight: bold;
+    display: inline-block;	
+}
+
+/* Expanding divs */
+#ben, #cyd, #brad, #jason, #nate, #karen, #luke, #jared {
+    display:none;
+    margin-left:1em;
+    padding-right:0em;
+}
+
+/* Checkbox text */
+.check-tip{
+    display: inline-block;
+    font-size: 0.9em;
+    color:;
+}
+
+.free-recordings{
+    font-size: 1.3em;
+
+}
+
+/* People description */
+.people {
+    font-size: 1.1em;
+    font-style:italic;
+}

@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<!-- 
+	Created by Kaitlyn Carcia
+	This page has been designed with the arrange example found here: https://github.com/fredleblanc/HTML
+	Last modified April 16, 2014
+ -->
+    <head>
+        <meta charset="utf-8">
+
+        <!-- Arrange css -->
+        <link rel="stylesheet" href="../lib/css/arrange.css">
+        <!-- Main Styles -->
+        <link rel="stylesheet" href="../lib/css/main.css">
+
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Expanding divs using jQuery -->
+		<script src="../lib/js/expanding-divs.js"></script>
+
+		<!-- favicon -->
+		<link rel="shortcut icon" href="../assets/favicon.ico">
+		
+        <title>UXIM 2014 Giveaway</title>
+
+    </head>
+    <body>
+        <div class="page">
+
+            <!-- Header -->
+            <div class="row x-large">
+                <div class="twelve column">
+                    <!-- Logo -->
+                    <img style="width: 38em" src="../lib/img/bg/logo-ux-immersion-2014-full.png"><br>
+                    <div style="font-size: 1.15em; font-weight:bold">Broaden your mobile UX knowledge with practical techniques and proven processes</div>
+                </div>
+            </div>
+
+            <div class="row medium">
+                <!-- Sign up box -->
+                <div class="seven column signup" style="border: 14px solid rgba(124, 181, 223, .5);" >
+                    <div class="signup">
+                        <div class="free-recordings wordwrap">To get your <font style="color: #9360ab; font-weight:bold;">free recordings</font>, all we need is your email address<br></div>
+                        <!-- Signup form -->
+                        <form action="#">
+                            <input type="text" name="email" placeholder="Enter your Email Address"><br><br>
+                            <div class="signup-selections">
+                                <input type="checkbox"><div class="check-tip">I want to subscribe to UIETips to get UIE’s UX research.</div><br>
+                                <input type="checkbox"><div class="check-tip">Tell me more about the 2015 UX Immersion Mobile Conference.</div><br><br>
+                            </div>
+                            <input class="button" type="submit" value="Get your Free Recordings"><br>
+                        </form>
+                        <div class=wordwrap style="font-size:0.8em">We promise to never sell or share your email. We will send you an email on accessing UXIM OnDemand.</div>
+                    </div>
+                </div>
+
+                <!-- Information to the right of signup box -->
+                <div class="five column" style="margin-top: 1.2em;">
+                    <p class="wordwrap">We’re celebrating this year’s fantastic program at the <a href="#">UX Immersion Mobile Conference</a> by giving everyone lifetime access to 2014’s sold out event.</p>
+                    <p class="wordwrap">No gimmicks, no bait and switch. But you only have until February 21 to get the goods. Tell your co-workers, friends, family, and anyone who will listen. This offer for 2014’s sold out recordings won’t be repeated.</p>
+                </div>
+            </div>
+
+            <!-- All speakers at conference -->
+
+            <div class="row large" style="margin: 4em 0em 4em 0em;">
+                <div style="font-size: 1.5em;"><strong>Experience</strong> what attendees heard when these top UX experts shared their best practices<br>for improving mobile UX skills</div>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="row large">
+                <!-- Row 1, person 1 -->
+                <div id="1" class="six column person" style="margin-right:1.7em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/ben-callahan.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0; margin-top:1.1em;">
+                            <div class="name">Ben Callahan</div><br>
+                            Dissecting Design
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="ben">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Teams, timelines, and deliverables are an ever-changing challenge for teams trying to do responsive design. Hear how to manage expectations and create stronger products, faster.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 1, person 2 -->
+                <div id="2" class="six column person" style="margin:0em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/cyd-harrell.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Cyd Harrell</div><br>
+                            <div class="wordwrap">Doing “Pocket Research” to Learn About Your Users’ Lives</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="cyd">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Mobile changes everything about how we conduct usability research. Learn the latest techniques for interviewing, gathering data, and involving your entire team.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="row large">
+                <!-- Row 2, person 1 -->
+                <div id="3" class="six column person" style="margin-right:1.7em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/brad-frost.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Brad Frost</div><br>
+                            <div class="wordwrap">Building Design Systems from Atomic Elements</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="brad">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Have you seen style tiles, element collages, or pattern libraries? These are just a few examples of how designers are reacting to the explosion of devices and interface sizes.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2, person 2 -->
+                <div id="4" class="six column person" style="margin:0em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/jason-grigsby.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Jason Grigsby</div><br>
+                            <div class="wordwrap">Adapting to Different Forms of Input</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="jason">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Dispel your fears of code, media queries, image optimization, and multi-device design. See how fast and freeing mobile-first, responsive web design can be right now.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Row 3 -->
+            <div class="row large">
+                <!-- Row 3, person 1 -->
+                <div id="5" class="six column person" style="margin-right:1.7em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/nate-schutta.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Nate Schutta</div><br>
+                            <div class="wordwrap">Choosing Which Mobile Experience to Build</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="nate">
+                            <div class="eleven column">
+                                <div class="wordwrap people">By now, companies know they need to be “on mobile.” But should that experience be a native app, a mobile web app, or something in between?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3, person 2 -->
+                <div id="6" class="six column person" style="margin:0em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/karen-mcgrane.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Karen McGrane</div><br>
+                            <div class="wordwrap">Defining Your Mobile Content Strategy</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="karen">
+                            <div class="eleven column">
+                                <div class="wordwrap people">It’s time to define a mobile content strategy that will make your customers very happy. And Karen McGrane is your guide.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Row 4 -->
+            <div class="row large">
+                <!-- Row 4, person 1 -->
+                <div id="7" class="six column person" style="margin-right:1.7em">
+                    <div class="row large" style="margin:0">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/luke-wroblewski.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Luke Wroblewski</div><br>
+                            <div class="wordwrap">Mobile Behavior and Design Trends</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="luke">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Luke’s talks are chock full of the tools and talking points to help design teams make great mobile UX decisions.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 4, person 2 -->
+                <div id="8" class="six column person" style="margin:0em">
+                    <div class="row large" style="margin: 0 auto">
+                        <!-- Person image -->
+                        <div class="five column" style="margin-right:0.5em">
+                            <img class="round-headshot" src="../lib/img/speakers/jared-spool.jpg">	
+                        </div>
+                        <!-- Description -->
+                        <div class="seven column" style="margin-left: 0;">
+                            <div class="name">Jared Spool</div><br>
+                            <div class="wordwrap">How Do We Design Designers?</div>
+                        </div>
+                    </div>
+                    <div class="row large">
+                        <!-- Extra info -->
+                        <div id="jared">
+                            <div class="eleven column">
+                                <div class="wordwrap people">Why don’t design students coming out of school know about responsive design or creating mobile apps? Why are our self-taught hackers and C.S. grads having a tough time keeping up with the pace of technology innovation?</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<!-- footer -->
+            <div class="row medium">
+                <div class="four row">
+                    <hr style="margin: 0 auto;">
+                    <font style="font-size:0.9em">Questions or comments? Please send e-mail to <a href="mailto:events@uie.com">events@uie.com</a></font><br>
+                    <br>UX&nbsp;Immersion Mobile Conference is a proud production of
+                    <a href="http://uie.com">User&nbsp;Interface&nbsp;Engineering</a>.<br>
+                    Copyright © 2014, User Interface Engineering. All Rights Reserved.<br>
+                    510&nbsp;Turnpike&nbsp;St., Suite&nbsp;102, North Andover, MA 01845<br>
+                    1.800.588.9855 (within the U.S. and Canada) or +1.978.327.5561
+                </div>
+            </div>
+    </body>
+</html>
